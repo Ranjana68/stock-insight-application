@@ -118,14 +118,14 @@ function StockPicker() {
           onClick={() => handleHistoryNavigation(-1)}
           disabled={state.searchHistoryIndex <= 0}
         >
-          &lt; Back
+          &lt;Back
         </button>
         <button
           className="nav-button"
           onClick={() => handleHistoryNavigation(1)}
           disabled={state.searchHistoryIndex >= state.searchHistory.length - 1}
         >
-          Forward &gt;
+          Forward&gt;
         </button>
       </div>
       <ul className="autocomplete-list">
