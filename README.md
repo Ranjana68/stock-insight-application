@@ -1,2 +1,2 @@
-# stock-insight-application
+# stock-search2
 Created with CodeSandbox
